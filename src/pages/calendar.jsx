@@ -66,18 +66,20 @@ export const Calendar = () => {
     data: "30/03",
 
     localPrimario: "Meire",
-    dirigentePrimario: "Deivid",
-    gruposPrimario: "Deivid, Fernando, Mário",
+    dirigentePrimario: "Mário",
+    gruposPrimario: "Deivid, Ricardo e Mário",
 
     localSecundario: "Regina",
-    dirigenteSecundario: "Reginaldo",
-    gruposSecundario: "Reginaldo, Silas e Ricardo",
+    dirigenteSecundario: "Silas",
+    gruposSecundario: "Fernando, Silas e Reginaldo",
 
     visitaSsGrupo: "Ricardo",
     visitaSsData: "23/03",
+
+    campanhas: "",
   }
 
-  const driverSaturday = ["Fabiano", "Adeir", "Felipe", "Fernando", "Olecides", "Silas", "Luis Costa"]
+  const driverSaturday = ["Fabiano", "Adeir", "Felipe", "Fernando", "Olecides", "Silas", "Luis Costa", "Mário"]
 
   return (
     <Body>
@@ -107,16 +109,27 @@ export const Calendar = () => {
         </Controls>
         <Annotations>
           <p>
-            <strong><u>{customAnnotations.data}</u></strong> - Campo Rural com 2 saídas
+            <strong>{customAnnotations.data}:</strong>  &nbsp; Campo Rural com 2 saídas
           </p>
           <p>
-            <strong><u>Local:</u> </strong>{customAnnotations.localPrimario} - <strong><u>Dirigente:</u> </strong>
-            {customAnnotations.dirigentePrimario}. <strong><u>Grupos:</u></strong> {customAnnotations.gruposPrimario}.
+            <strong>Local: </strong>{customAnnotations.localPrimario} &nbsp; &nbsp; &nbsp; &nbsp; 
+            <strong>Dirigente: </strong>{customAnnotations.dirigentePrimario} &nbsp; &nbsp; &nbsp;
+            <strong>Grupos: </strong>{customAnnotations.gruposPrimario}
           </p>
           <p>
-            <strong><u>Local:</u> </strong>{customAnnotations.localSecundario} - <strong><u>Dirigente:</u> </strong>{customAnnotations.dirigenteSecundario}. <strong><u>Grupos:</u></strong> {customAnnotations.gruposSecundario}.
+            <strong>Local: </strong>{customAnnotations.localSecundario} &nbsp; &nbsp; &nbsp; 
+            <strong>Dirigente: </strong>{customAnnotations.dirigenteSecundario} &nbsp; &nbsp; &nbsp; &nbsp; 
+            <strong>Grupos: </strong>{customAnnotations.gruposSecundario}
           </p>
-          <p><strong><u>Visita do Superintendente de Serviço:</u></strong> Grupo: {customAnnotations.visitaSsGrupo} - Data: {customAnnotations.visitaSsData}</p>
+          <p>
+            <strong>Visita do Superintendente de Serviço:</strong> &nbsp; &nbsp; &nbsp; 
+            <strong>Grupo:</strong> {customAnnotations.visitaSsGrupo} &nbsp; &nbsp; &nbsp; 
+            <strong>Data:</strong> {customAnnotations.visitaSsData}
+          </p>
+          {/* Campanhas especiais */}
+          <p>
+            <strong>Campanha da Celebração: </strong> Início no sábado, 15 de março.
+          </p>
         </Annotations>
         <CalendarContainer>
           <Grid>
@@ -164,7 +177,7 @@ export const Calendar = () => {
 
 const Body = styled.div`
   font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   background-color: #ffffff;

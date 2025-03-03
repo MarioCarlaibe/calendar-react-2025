@@ -26,6 +26,15 @@ Ricardo
 Fernando
 Mário
 
+Sequência dos grupos:
+Deivid, Ricardo e Mário              Deivid, Mário e Silas
+Fernando, Silas e Reginaldo          Fernando, Ricardo e Reginaldo
+
+Deivid, Ricardo e Silas              Deivid, Mário e Reginaldo
+Fernando, Mário e Reginaldo          Fernando, Silas e Ricardo
+
+Deivid, Ricardo e Reginaldo          Deivid, Reginaldo e Silas
+Fernando, Silas e Mário              Fernando, Ricardo e Reginaldo
 
 Julho:
 Rural - Deivid, Ricardo, Reginaldo e Fernando.
@@ -77,52 +86,52 @@ Dirigente: Fernando
 Rural - Adeir, Silas, Reginaldo e Mário.
 Dirigente: Reginaldo
 Visita - nenhum
-
+--------------------------------------------------------------------------
 Março:
-Rural - 
-Dirigente: 
-Rural - 
-Dirigente: 
+Grupo 1 - Deivid, Ricardo e Mário
+Dirigente: Mário
+Grupo 2 - Fernando, Silas e Reginaldo
+Dirigente: Silas
 Visita - Ricardo
 
 Abril:
-Rural - 
+Grupo 1 - Deivid, Mário e Silas
 Dirigente: 
-Rural - 
+Grupo 2 - Fernando, Ricardo e Reginaldo
 Dirigente: 
 Visita - Fernando
 
 Maio:
-Rural - 
+Grupo 1 - Deivid, Ricardo e Silas
 Dirigente: 
-Rural - 
+Grupo 2 - Fernando, Mário e Reginaldo
 Dirigente: 
 Visita - Mário
 
 Junho:
-Rural - 
+Grupo 1 - Deivid, Mário e Reginaldo
 Dirigente: 
-Rural - 
+Grupo 2 - Fernando, Silas e Ricardo
 Dirigente: 
 Visita - Silas
 
 Julho:
-Rural - 
+Grupo 1 - Deivid, Ricardo e Reginaldo
 Dirigente: 
-Rural - 
+Grupo 2 - Fernando, Silas e Mário 
 Dirigente: 
 Visita - Deivid
 
 Agosto:
-Rural - 
+Grupo 1 - Deivid, Reginaldo e Silas
 Dirigente: 
-Rural - 
+Grupo 2 - Fernando, Ricardo e Reginaldo
 Dirigente: 
 Visita - Reginaldo
 
 Setembro:
-Rural - 
+Grupo 1 - 
 Dirigente: 
-Rural - 
+Grupo 2 - 
 Dirigente: 
 Visita - Descanso 😅
