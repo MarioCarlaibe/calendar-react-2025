@@ -1,137 +1,104 @@
-Fabiano -
-Adeir -
-Felipe -
-Fernando -
-Olecides-
-Silas --
-Luis Costa -
+Fabiano ---
+Adeir --
+Felipe --
+Fernando --
+Olecides---
+Silas ---
+Luis Costa ---
  
 
-Mário -
+Mário --
 João Neves 
 
 Visita nos grupos:
-1 - Silas - Salão
-2 - Reginaldo - Aline
+1 - Fernando - Regina
+2 - Silas - Salão
 3 - Deivid - Meire
-4 - Ricardo - Alex
-5 - Mário - Luis Costa
-6 - Fernando - Regina 
+4 - Reginaldo - Aline 
 
 Sequência: 
-Silas
-Deivid
-Reginaldo
-Ricardo
-Fernando
-Mário
+Silas ---
+Deivid --
+Reginaldo --
+Fernando ---
+Mário --
 
 Sequência dos grupos:
-Deivid, Ricardo e Mário              Deivid, Mário e Silas
-Fernando, Silas e Reginaldo          Fernando, Ricardo e Reginaldo
+Deivid e Mário                       Deivid, Silas e Reginaldo
+Fernando, Silas e Reginaldo          Fernando e Mário
 
-Deivid, Ricardo e Silas              Deivid, Mário e Reginaldo
-Fernando, Mário e Reginaldo          Fernando, Silas e Ricardo
+Deivid e Silas                       Deivid, Mário e Reginaldo
+Fernando, Mário e Reginaldo          Fernando e Silas 
 
-Deivid, Ricardo e Reginaldo          Deivid, Reginaldo e Silas
-Fernando, Silas e Mário              Fernando, Ricardo e Reginaldo
+Deivid e Reginaldo                   Deivid, Silas e Mário
+Fernando, Silas e Mário              Fernando e Reginaldo
 
-Julho:
-Rural - Deivid, Ricardo, Reginaldo e Fernando.
-Dirigente: Deivid.
-Rural - André, Mário e Silas.
-Dirigente: André.
-Visita - Grupo 1 - Silas
-
-Agosto:
-Rural - Deivid, Ricardo, Mário e Silas.
-Dirigente: Ricardo.
-Rural - André, Reginaldo e Fernando.
-Dirigente: Reginaldo
-Visita - Grupo 3 - Deivid
-
-Setembro:
-Rural - Deivid, Ricardo, Reginaldo e Fernando.
-Dirigente: Ricardo.
-Rural - André, Mário e Silas.
-Dirigente: Reginaldo.
-
-Outubro:
-Rural - Deivid, Mário, Reginaldo.
-Dirigente: Mário.
-Rural - André, Silas, Ricardo e Fernando.
-Dirigente: Edson.
-
-Novembro:
-Rural - Deivid, Fernando e Silas.
-Dirigente: Fernando.
-Rural - Adeir, Mário, Ricardo e Reginaldo.
-Dirigente: Mário.
-
-Dezembro:
-Rural - Deivid, Ricardo, Reginaldo e Mário.
-Dirigente: Deivid
-Rural - Adeir, Fernando e Silas.
-Dirigente: Silas
-Visita - Grupo 2 - Reginaldo
-
-Janeiro:
-Rural - Todos juntos
-Dirigente: Ricardo
-Visita - Grupo 2 - Reginaldo
-
-Fevereiro:
-Rural - Deivid, Ricardo e Fernando
-Dirigente: Fernando
-Rural - Adeir, Silas, Reginaldo e Mário.
-Dirigente: Reginaldo
-Visita - nenhum
---------------------------------------------------------------------------
-Março:
+Março: 2025
 Grupo 1 - Deivid, Ricardo e Mário
 Dirigente: Mário
 Grupo 2 - Fernando, Silas e Reginaldo
 Dirigente: Silas
-Visita - Ricardo
+Visita - 
 
 Abril:
 Grupo 1 - Deivid, Mário e Silas
-Dirigente: 
+Dirigente: Mário
 Grupo 2 - Fernando, Ricardo e Reginaldo
-Dirigente: 
-Visita - Fernando
+Dirigente: Ricardo
+Visita - Ricardo
 
 Maio:
-Grupo 1 - Deivid, Ricardo e Silas
+Grupo 1 - 
+Dirigente: Fernando
+Grupo 2 - 
 Dirigente: 
-Grupo 2 - Fernando, Mário e Reginaldo
-Dirigente: 
-Visita - Mário
+Visita - Visita Superintendente
 
 Junho:
-Grupo 1 - Deivid, Mário e Reginaldo
+Grupo 1 - 
+Dirigente: Silas
+Grupo 2 - 
 Dirigente: 
-Grupo 2 - Fernando, Silas e Ricardo
-Dirigente: 
-Visita - Silas
+Visita - 
 
 Julho:
-Grupo 1 - Deivid, Ricardo e Reginaldo
-Dirigente: 
-Grupo 2 - Fernando, Silas e Mário 
-Dirigente: 
-Visita - Deivid
+Grupo 1 - Deivid, Silas e Reginaldo
+Dirigente: Deivid
+Grupo 2 - Fernando e Mário
+Dirigente: Mário
+Visita - Fernando - Regina
 
 Agosto:
-Grupo 1 - Deivid, Reginaldo e Silas
-Dirigente: 
-Grupo 2 - Fernando, Ricardo e Reginaldo
-Dirigente: 
-Visita - Reginaldo
+Grupo 1 - Deivid e Silas
+Dirigente: Silas
+Grupo 2 - Fernando, Mário e Reginaldo
+Dirigente: Reginaldo
+Visita - Silas - Salão
 
 Setembro:
+Grupo 1 - Deivid, Mário e Reginaldo
+Dirigente: Deivid
+Grupo 2 - Fernando e Silas
+Dirigente: Fernando
+Visita - Deivid - Meire
+
+Outubro:
+Grupo 1 - Deivid e Reginaldo
+Dirigente: Reginaldo
+Grupo 2 - Fernando, Silas e Mário
+Dirigente: Mário
+Visita - Reginaldo - Aline 
+
+Novembro:
+Grupo 1 - Deivid, Silas e Mário
+Dirigente: Silas
+Grupo 2 - Fernando e Reginaldo
+Dirigente: Fernando
+Visita - 
+
+Dezembro:
 Grupo 1 - 
 Dirigente: 
 Grupo 2 - 
 Dirigente: 
-Visita - Descanso 😅
+Visita - 

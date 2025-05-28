@@ -27,7 +27,7 @@ export const Calendar = () => {
   const firstDay = new Date(selectedYear, selectedMonth, 1).getDay();
 
   const customHours = {
-    Dom: "8:45",
+    Dom: "9:00",
     Seg: "16:00",
     Ter: "8:30",
     TerNoite: "18:45",
@@ -39,7 +39,7 @@ export const Calendar = () => {
   };
 
   const customLocal = {
-    Dom: "Grupos",
+    Dom: "Salão do Reino",
     Seg: "Edilena",
     Ter: "Edilena",
     TerNoite: "Regina",
@@ -51,9 +51,9 @@ export const Calendar = () => {
   };
 
   const customDriver = {
-    Dom: "Sup. do Grupo",
+    Dom: "Reunião",
     Seg: "Mauricio Roncari",
-    Ter: "Silas",
+    Ter: "",
     TerNoite: "Reginaldo",
     Qua: "Renato",
     Qui: "Reinaldo",
@@ -63,23 +63,25 @@ export const Calendar = () => {
   };
 
   const customAnnotations = {
-    data: "30/03",
+    data: "28/06",
 
-    localPrimario: "Meire",
-    dirigentePrimario: "Mário",
-    gruposPrimario: "Deivid, Ricardo e Mário",
+    localPrimario: "Luis Costa",
+    dirigentePrimario: "Silas",
+    gruposPrimario: "Todos",
 
     localSecundario: "Regina",
-    dirigenteSecundario: "Silas",
-    gruposSecundario: "Fernando, Silas e Reginaldo",
+    dirigenteSecundario: "Ricardo",
+    gruposSecundario: "Fernando, Ricardo e Reginaldo",
 
     visitaSsGrupo: "Ricardo",
-    visitaSsData: "23/03",
+    visitaSsData: "04/04",
 
     campanhas: "",
   }
 
-  const driverSaturday = ["Fabiano", "Adeir", "Felipe", "Fernando", "Olecides", "Silas", "Luis Costa", "Mário"]
+  const driverSaturday = ["Fabiano", "Adeir", "Felipe", "Fernando", "Olecides", "Silas", "Luis Costa", "Mário", "Visita"]
+
+  const driverTuesday = ["Glaucia", "Cidinha", "Edilena", "Rosemeire", "Silas"]
 
   return (
     <Body>
@@ -109,27 +111,27 @@ export const Calendar = () => {
         </Controls>
         <Annotations>
           <p>
-            <strong>{customAnnotations.data}:</strong>  &nbsp; Campo Rural com 2 saídas
+            <strong>{customAnnotations.data}:</strong>  &nbsp; Campo Rural
           </p>
           <p>
             <strong>Local: </strong>{customAnnotations.localPrimario} &nbsp; &nbsp; &nbsp; &nbsp; 
             <strong>Dirigente: </strong>{customAnnotations.dirigentePrimario} &nbsp; &nbsp; &nbsp;
             <strong>Grupos: </strong>{customAnnotations.gruposPrimario}
           </p>
-          <p>
+          {/* <p>
             <strong>Local: </strong>{customAnnotations.localSecundario} &nbsp; &nbsp; &nbsp; 
             <strong>Dirigente: </strong>{customAnnotations.dirigenteSecundario} &nbsp; &nbsp; &nbsp; &nbsp; 
             <strong>Grupos: </strong>{customAnnotations.gruposSecundario}
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             <strong>Visita do Superintendente de Serviço:</strong> &nbsp; &nbsp; &nbsp; 
             <strong>Grupo:</strong> {customAnnotations.visitaSsGrupo} &nbsp; &nbsp; &nbsp; 
             <strong>Data:</strong> {customAnnotations.visitaSsData}
-          </p>
+          </p> */}
           {/* Campanhas especiais */}
-          <p>
+          {/* <p>
             <strong>Campanha da Celebração: </strong> Início no sábado, 15 de março.
-          </p>
+          </p> */}
         </Annotations>
         <CalendarContainer>
           <Grid>
@@ -148,6 +150,15 @@ export const Calendar = () => {
                   <p><strong>Local: </strong>{customLocal[dayNames[weekDay]] || ""}</p>
                   <p><strong>Dirigente:</strong></p>
                   <p>{customDriver[dayNames[weekDay]] || ""}</p>
+                  {(dayNames[weekDay] === "Ter" || "") && (
+                    <>
+                        <SelectTuesday>
+                            {driverTuesday.map((driver) => (
+                              <option key={driver} value={driver}>{driver}</option>
+                            ))}
+                        </SelectTuesday>
+                    </>
+                  )}
                   {(dayNames[weekDay] === "Sáb") && (
                     <>
                         <SelectSaturday>
@@ -222,7 +233,7 @@ const Annotations = styled.div`
 
 const CalendarContainer = styled.div`
   padding: 5px;
-  width: 230mm;
+  width: 215mm;
   height: 320mm;
   border: 2px solid #83c087;
   border-radius: 8px;
@@ -268,4 +279,10 @@ const SelectSaturday = styled.select`
     border-radius: 5px;
     height: 25px;
     margin-top: 10px;
+    text-align: center;
+`
+const SelectTuesday = styled.select`
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
 `
