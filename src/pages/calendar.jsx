@@ -32,6 +32,7 @@ export const Calendar = () => {
     Ter: "8:30",
     TerNoite: "18:45",
     Qua: "8:30",
+    QuaNoite: "18:45",
     Qui: "8:30",
     QuiNoite: "18:45",
     Sex: "8:30",
@@ -44,6 +45,7 @@ export const Calendar = () => {
     Ter: "Edilena",
     TerNoite: "Regina",
     Qua: "Meire",
+    QuaNoite: "Regina",
     Qui: "Meire",
     QuiNoite: "Alex",
     Sex: "Meire",
@@ -56,6 +58,7 @@ export const Calendar = () => {
     Ter: "",
     TerNoite: "Reginaldo",
     Qua: "Renato",
+    QuaNoite: "Reginaldo",
     Qui: "Reinaldo",
     QuiNoite: "Olecides",
     Sex: "Sebastião",
@@ -168,7 +171,7 @@ export const Calendar = () => {
                         </SelectSaturday>
                     </>
                   )}
-                  {(dayNames[weekDay] === "Ter" || dayNames[weekDay] === "Qui") && (
+                  {(dayNames[weekDay] === "Qua" || dayNames[weekDay] === "Qui") && (
                     <>
                         <p><strong>{customHours[dayNames[weekDay] + "Noite"] || ""}</strong></p>
                         <p><strong>Local: </strong>{customLocal[dayNames[weekDay] + "Noite"] || ""}</p>
