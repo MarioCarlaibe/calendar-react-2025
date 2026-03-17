@@ -1,13 +1,14 @@
-Fabiano ---
-Adeir --
-Felipe --
-Fernando --
-Olecides---
-Silas ---
-Luis Costa ---
- 
-
 Mário --
+Fabiano --
+Felipe --
+Adeir --
+Davi -
+Fernando -
+Luis Costa -
+Silas -
+
+
+Olecides
 João Neves 
 
 Visita nos grupos:
@@ -33,30 +34,44 @@ Fernando, Mário e Reginaldo          Fernando e Silas
 Deivid e Reginaldo                   Deivid, Silas e Mário
 Fernando, Silas e Mário              Fernando e Reginaldo
 
-Março: 2025
-Grupo 1 - Deivid, Ricardo e Mário
-Dirigente: Mário
-Grupo 2 - Fernando, Silas e Reginaldo
+Janeiro: 2026
+Grupo 1 - Deivid, Silas e Reginaldo
 Dirigente: Silas
+Grupo 2 - Fernando e Mário
+Dirigente: Mário
+Visita - Deivid - Meire
+
+Fevereiro: 2026
+Grupo 1 - Deivid e Silas
+Dirigente: Deivid
+Grupo 2 - Fernando, Mário e Reginaldo
+Dirigente: Fernando
+Visita - Reginaldo - Alex
+
+Março: 2026
+Grupo 1 - Deivid, Mário e Reginaldo
+Dirigente: Reginaldo 
+Grupo 2 - Fernando e Silas
+Dirigente: Silas
+Visita - Fernando - Regina
+
+Abril: 2026
+Grupo 1 - Deivid e Reginaldo
+Dirigente:  Deivid
+Grupo 2 - Fernando, Silas e Mário
+Dirigente: Mário
 Visita - 
 
-Abril:
-Grupo 1 - Deivid, Mário e Silas
-Dirigente: Mário
-Grupo 2 - Fernando, Ricardo e Reginaldo
-Dirigente: Ricardo
-Visita - Ricardo
-
-Maio:
-Grupo 1 - 
-Dirigente: Fernando
-Grupo 2 - 
-Dirigente: 
-Visita - Visita Superintendente
-
-Junho:
-Grupo 1 - 
+Maio: 2026
+Grupo 1 - Deivid, Silas e Mário
 Dirigente: Silas
+Grupo 2 - Fernando e Reginaldo
+Dirigente: Fernando
+Visita - 
+
+Junho: 2026
+Grupo 1 - 
+Dirigente: 
 Grupo 2 - 
 Dirigente: 
 Visita - 
@@ -69,17 +84,17 @@ Dirigente: Mário
 Visita - Fernando - Regina
 
 Agosto:
-Grupo 1 - Deivid e Silas
+Grupo 1 - Deivid, Mário e Reginaldo
+Dirigente: Mário
+Grupo 2 - Fernando e Silas
 Dirigente: Silas
-Grupo 2 - Fernando, Mário e Reginaldo
-Dirigente: Reginaldo
 Visita - Silas - Salão
 
 Setembro:
-Grupo 1 - Deivid, Mário e Reginaldo
+Grupo 1 - Deivid e Silas
 Dirigente: Deivid
-Grupo 2 - Fernando e Silas
-Dirigente: Fernando
+Grupo 2 - Fernando, Mário e Reginaldo
+Dirigente: Reginaldo
 Visita - Deivid - Meire
 
 Outubro:
@@ -97,8 +112,8 @@ Dirigente: Fernando
 Visita - 
 
 Dezembro:
-Grupo 1 - 
-Dirigente: 
-Grupo 2 - 
-Dirigente: 
-Visita - 
+Grupo 1 - Deivid e Mário
+Dirigente: Deivid
+Grupo 2 - Fernando, Silas e Reginaldo
+Dirigente: Reginaldo
+Visita - Silas - Salão

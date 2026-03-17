@@ -27,7 +27,7 @@ export const Calendar = () => {
   const firstDay = new Date(selectedYear, selectedMonth, 1).getDay();
 
   const customHours = {
-    Dom: "9:00",
+    Dom: "8:45",
     Seg: "16:00",
     Ter: "8:30",
     TerNoite: "18:45",
@@ -40,67 +40,58 @@ export const Calendar = () => {
   };
 
   const customLocal = {
-    Dom: "Salão do Reino",
+    Dom: "Grupos",
     Seg: "Edilena",
     Ter: "Edilena",
     TerNoite: "Regina",
     Qua: "Meire",
-    QuaNoite: "Regina",
+    QuaNoite: "Felipe",
     Qui: "Meire",
-    QuiNoite: "Alex",
+    QuiNoite: "",
     Sex: "Meire",
     Sáb: "Luis Costa",
   };
 
   const customDriver = {
-    Dom: "Reunião",
+    Dom: "Sup. do Grupo",
     Seg: "Mauricio Roncari",
     Ter: "",
-    TerNoite: "Reginaldo",
+    TerNoite: "Olecides",
     Qua: "Renato",
     QuaNoite: "Reginaldo",
     Qui: "Reinaldo",
-    QuiNoite: "Olecides",
-    Sex: "Sebastião",
+    QuiNoite: "Reginaldo",
+    Sex: "Mauricio Roncari",
     Sáb: "",
   };
 
   const customAnnotations = {
-    data: "28/06",
+    data: "29/03",
 
-    localPrimario: "Luis Costa",
-    dirigentePrimario: "Silas",
-    gruposPrimario: "Todos",
+    localPrimario: "Meire",
+    dirigentePrimario: "Davi",
+    gruposPrimario: "Deivid, Mário e Davi",
 
     localSecundario: "Regina",
-    dirigenteSecundario: "Ricardo",
-    gruposSecundario: "Fernando, Ricardo e Reginaldo",
+    dirigenteSecundario: "Silas",
+    gruposSecundario: "Fernando e Silas",
 
-    visitaSsGrupo: "Ricardo",
-    visitaSsData: "04/04",
+    visitaSsGrupo: "Deivid",
+    visitaSsData: "01/03",
 
     campanhas: "",
   }
 
-  const driverSaturday = ["Fabiano", "Adeir", "Felipe", "Fernando", "Olecides", "Silas", "Luis Costa", "Mário", "Visita"]
+  const driverSaturday = ["Fabiano", "Adeir", "Felipe", "Fernando", "Davi", "Silas", "Luis Costa", "Mário", "Visita", "Congresso", "Assembléia"]
 
-  const driverTuesday = ["Glaucia", "Cidinha", "Edilena", "Rosemeire", "Silas"]
+  const driverTuesday = ["Cidinha", "Terezinha", "Edilena", "Rosemeire"]
 
   return (
     <Body>
       <Container>
         <Controls>
           <h1>Calendário de Serviço</h1>
-          <Select
-            value={selectedYear}
-            onChange={(e) => setSelectedYear(Number(e.target.value))}
-          >
-            {years.map((year) => (
-              <option key={year} value={year}>
-                {year}
-              </option>
-            ))}
-          </Select>
+          
           <Select
             value={selectedMonth}
             onChange={(e) => setSelectedMonth(Number(e.target.value))}
@@ -111,21 +102,31 @@ export const Calendar = () => {
               </option>
             ))}
           </Select>
+          <Select
+            value={selectedYear}
+            onChange={(e) => setSelectedYear(Number(e.target.value))}
+          >
+            {years.map((year) => (
+              <option key={year} value={year}>
+                {year}
+              </option>
+            ))}
+          </Select>
         </Controls>
         <Annotations>
           <p>
-            <strong>{customAnnotations.data}:</strong>  &nbsp; Campo Rural
+            <strong>{customAnnotations.data}:</strong>  &nbsp; Campo Rural com duas saídas
           </p>
           <p>
             <strong>Local: </strong>{customAnnotations.localPrimario} &nbsp; &nbsp; &nbsp; &nbsp; 
             <strong>Dirigente: </strong>{customAnnotations.dirigentePrimario} &nbsp; &nbsp; &nbsp;
             <strong>Grupos: </strong>{customAnnotations.gruposPrimario}
           </p>
-          {/* <p>
+          <p>
             <strong>Local: </strong>{customAnnotations.localSecundario} &nbsp; &nbsp; &nbsp; 
             <strong>Dirigente: </strong>{customAnnotations.dirigenteSecundario} &nbsp; &nbsp; &nbsp; &nbsp; 
             <strong>Grupos: </strong>{customAnnotations.gruposSecundario}
-          </p> */}
+          </p>
           {/* <p>
             <strong>Visita do Superintendente de Serviço:</strong> &nbsp; &nbsp; &nbsp; 
             <strong>Grupo:</strong> {customAnnotations.visitaSsGrupo} &nbsp; &nbsp; &nbsp; 
@@ -171,7 +172,7 @@ export const Calendar = () => {
                         </SelectSaturday>
                     </>
                   )}
-                  {(dayNames[weekDay] === "Qua" || dayNames[weekDay] === "Qui") && (
+                  {(dayNames[weekDay] === "Ter" || dayNames[weekDay] === "Qua") && (
                     <>
                         <p><strong>{customHours[dayNames[weekDay] + "Noite"] || ""}</strong></p>
                         <p><strong>Local: </strong>{customLocal[dayNames[weekDay] + "Noite"] || ""}</p>
