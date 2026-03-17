@@ -56,11 +56,11 @@ export const Calendar = () => {
     Dom: "Sup. do Grupo",
     Seg: "Mauricio Roncari",
     Ter: "",
-    TerNoite: "Olecides",
+    TerNoite: "Pablo",
     Qua: "Renato",
-    QuaNoite: "Reginaldo",
+    QuaNoite: "Felipe",
     Qui: "Reinaldo",
-    QuiNoite: "Reginaldo",
+    QuiNoite: "Felipe",
     Sex: "Mauricio Roncari",
     Sáb: "",
   };
@@ -217,10 +217,10 @@ const Controls = styled.div`
 `;
 
 const Select = styled.select`
-  padding: 8px;
+  padding: 8px 20px;
   border: 1px solid: #83c087;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 24px;
 `;
 
 const Annotations = styled.div`
@@ -228,17 +228,18 @@ const Annotations = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
   gap: 5px;
   border: 1px solid #83c087;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
 `
 
 const CalendarContainer = styled.div`
   padding: 5px;
-  width: 215mm;
-  height: 320mm;
+  width: 90vw;
+  height: 75vh;
   border: 2px solid #83c087;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -265,28 +266,44 @@ const DayBox = styled.div`
   height: 180px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   & span{
     margin-bottom: 10px;
     border: 1px solid #000000;
     width: 30px;
     border-radius: 5px;
+    position: relative;
+    left: -100px;
   }
   & p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
+    position: relative;
+    top: -30px;
   }
 `;
 
 const SelectSaturday = styled.select`
     border-radius: 5px;
     height: 25px;
-    margin-top: 10px;
     text-align: center;
+    position: relative;
+    top: -20px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70%;
+    background-color: #83c087;
 `
 const SelectTuesday = styled.select`
     border-radius: 5px;
     height: 25px;
     text-align: center;
+    position: relative;
+    top: -28px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70%;
+    background-color: #83c087;
 `
